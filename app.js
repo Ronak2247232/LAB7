@@ -5,7 +5,7 @@
 
         .controller('MyController', function ($scope, $http) {
             
-            $http.get('https://github.com/Ronak2247232/LAB7/data.json').then(function (response) {
+            $http.get('https://github.com/Ronak2247232/LAB7//data.json').then(function (response) {
                 $scope.datas = response.data;
             });
 
